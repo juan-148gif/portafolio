@@ -1,0 +1,84 @@
+:root{
+    --color--principal: #020403
+}
+
+body{
+    background-color: var(--color--principal);
+
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+
+    text-align: center;
+}
+.container h1{
+    font-size: 3rem;
+}
+.perfil img{
+    border-radius: 50%;
+    padding: 3rem;
+}
+
+.H img{
+    
+    padding: 2rem;
+}
+
+.ejercicio img{
+    width: 200px;
+    height: 200px;
+    border-radius: none;
+    justify-content: space-evenly;
+}
+.A{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    display: inline;
+}
+
+.container div{
+    justify-content: space-evenly;
+    display: inline;
+    padding: 0.5rem;
+
+}
+.container header{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;   
+    
+}
+.container div,label{
+    color: white;
+}
+
+.container section ul{
+    gap: 3rem;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+} 
+
+header{
+    color: white;
+    display: inline-block;
+    
+}
+
+.container section{
+    padding: 1rem;
+}
