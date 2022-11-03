@@ -23,17 +23,21 @@ body{
 .H img{
     
     padding: 2rem;
+    justify-content: center;
+}
+
+.A img{
+    justify-content: center;
+    display: inline-block;
+    display: inline-flex;
+    
 }
 
 .ejercicio img{
-    width: 200px;
-    height: 200px;
+    display: inline-block;
     border-radius: none;
-    justify-content: space-evenly;
-}
-.A{
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 ul{
