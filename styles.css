@@ -17,10 +17,6 @@ body{
     background-color: var(--color--principal);
 
 }
-
-.twitter img{
-    
-}
 .container{
     max-width: 800px;
     margin: auto;
