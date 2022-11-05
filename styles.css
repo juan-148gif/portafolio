@@ -2,9 +2,24 @@
     --color--principal: #020403
 }
 
+* {
+    font-family: Arial;
+}
+@media screen and (min-width: 800px) {
+    .container main{
+      margin: 1em 2em;
+    }
+
+    
+  }
+
 body{
     background-color: var(--color--principal);
 
+}
+
+.twitter img{
+    
 }
 .container{
     max-width: 800px;
@@ -85,4 +100,14 @@ header{
 
 .container section{
     padding: 1rem;
+}
+
+.enlace{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.myName{
+    color: #CCC;
+    font-size: larger;
 }
