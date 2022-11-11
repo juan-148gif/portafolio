@@ -2,6 +2,20 @@
     --color--principal: #020403
 }
 
+* {
+    font-family: Arial;
+}
+@media screen and (min-width: 800px) {
+    .container main{
+      margin: 1em 2em;
+    }
+
+    
+  }
+
+.class_XP h2{
+    padding: 3rem;
+}
 body{
     background-color: var(--color--principal);
 
@@ -85,4 +99,14 @@ header{
 
 .container section{
     padding: 1rem;
+}
+
+.enlace{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.myName{
+    color: #CCC;
+    font-size: larger;
 }
